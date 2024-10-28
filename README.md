@@ -7,6 +7,8 @@ Create a RESTful API that manages two different types of binary trees, where eac
 
 **Note:** Completion of the entire challenge is highly encouraged but not required. The backend implementation should be the primary focus, and candidates are expected to dedicate more effort to it.
 
+**Clarification on Tree Structure:**
+The binary trees should be capable of supporting multiple nodes under various parent nodes, maintaining a hierarchical structure. Each node represents a user, and nodes should be organized such that each can have up to two children (for the BST and AVL) under different parent nodes. This structure is intended to mirror a multi-level hierarchy where nodes are connected in a relational tree format. The UI should account for this with adding or updating users to have a parent node input, and be required after a root node is created.
 ---
 
 ## Requirements
